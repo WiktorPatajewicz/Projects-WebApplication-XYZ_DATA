@@ -1,0 +1,409 @@
+body
+{
+    background-color: #171717;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#container
+{
+    width:1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo
+{
+    color:white;
+    margin-top: 20px;
+    font-size: 44px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+
+#menu
+{
+    display: flex;
+    background-color: #303030;
+    margin-top: 20px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.option
+{
+    display:inline-block;
+    min-width: 50px;
+    height: 25px;
+    font-size: 18px;
+    padding: 10px;
+    border-right: 2px dotted #444444;
+    opacity: 0.8;
+}
+
+.option:hover
+{
+    background-color:#000000;
+    cursor: pointer;
+}
+
+#topbar
+{
+    background-color: #1d1d1d;
+    color:white;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    height: 220px;
+}
+
+#topbarL
+{
+    float: left;
+    width: 250px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    height:200px;
+    background-color:#FFFFFF;
+    border: 1px solid black;
+    border-radius:25px;
+}
+
+#topbarR
+{
+    float: left;
+    width: 650px;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#sidebar
+{
+   float: left;
+   width: 148px;
+   min-height:670px;
+   padding: 20px;
+   background-color: rgb(100, 100, 100);
+   text-align: center;
+   font-size: 18px;
+   border-right: 2px dotted #666666;
+}
+
+.optionL
+{
+    font-size: 18px;
+    padding: 15px;
+    border-bottom: 3px dotted #444444;
+}
+
+.optionL:hover
+{
+    background-color:#303030;
+    cursor: pointer;
+}
+
+#content
+{
+    float: left; 
+    padding: 40px;
+    width: 730px;
+    background-color: #dedede;
+    min-height: 630px;
+    text-align: justify;
+}
+
+#contentText1
+{
+    width: 400px;
+    text-align: justify;
+}
+
+
+
+#mainContentPhotos
+{
+    float:right;
+    width: 300px;
+    padding:20px;
+}
+
+#first
+{
+    width: 300px;
+}
+
+#second
+{
+    width: 300px;
+}
+
+#third
+{
+    width: 300px;
+}
+
+#contentPhotos
+{
+    padding: 40px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;  
+}
+
+#form
+{
+    float: left;
+    width: 35%;
+}
+#form1
+{
+    float: left;
+    width: 50%;
+}
+#form1
+{
+    float: left;
+    width: 75%;
+}
+
+input[type=text]
+{
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=password]
+{
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] 
+{
+    display: inline-block;
+    padding: 15px 20px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #444444;
+    border: none;
+    width: auto;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+  
+input[type=submit]:hover 
+{
+    background-color: #303030
+}
+  
+input[type=submit]:active 
+{
+    background-color: #303030;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+input[type=button] 
+{
+    display: inline-block;
+    padding: 15px 20px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #444444;
+    border: none;
+    width: auto;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+  
+input[type=button]:hover 
+{
+    background-color: #303030
+}
+  
+input[type=button]:active 
+{
+    background-color: #303030;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+input[type=tel]
+{
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display:flex;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=number]
+{
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display:flex;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=date]
+{
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display:flex;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+}
+
+input[type=datetime-local]
+{
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display:flex;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+}
+
+#select
+{
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display:flex;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+}
+
+#komunikat
+{
+    float: left;
+    padding: 15px 25px;
+    color: red;
+    font-weight: bold;
+    height: 8em;
+    display: flex;
+    align-items: center; 
+    font-size: 18px;
+
+}
+.przyciski
+{
+    text-align: center;
+}
+.button 
+{
+    display: inline-block;
+    padding: 15px 20px;
+    font-size: 21px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #444444;
+    border: none;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin: 10px;
+}
+  
+.button:hover 
+{
+    background-color: #303030
+}
+  
+.button:active 
+{
+    background-color: #303030;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+
+#footer
+{
+    clear: both;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.bigtitle
+{
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+a
+{
+    text-decoration: none;
+    color:white;
+}
+
+a:hover
+{
+    color: white;
+}
+
+#zalogowany
+{
+    width: 50%;
+    float: left;
+    height: 53px;
+    display: flex;
+    text-align: right;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#panel
+{
+    width: 50%;
+    float: left;
+}
